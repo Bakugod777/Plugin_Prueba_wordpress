@@ -87,17 +87,6 @@ Como ya creaste la base de datos con XAMPP, el plugin automáticamente:
 
 Un plugin completo y profesional para WordPress que implementa un formulario multi-step para registro de jóvenes entre 18-23 años, con tabla de administración, gráficas y exportación de datos.
 
-## 📸 Vista Previa
-
-### Formulario Multi-Step
-![Formulario](https://via.placeholder.com/800x600/667eea/ffffff?text=Formulario+Multi-Step)
-
-### Panel de Administración  
-![Admin Panel](https://via.placeholder.com/800x600/00b894/ffffff?text=Panel+de+Administración)
-
-### Tabla de Registros
-![Tabla](https://via.placeholder.com/800x600/74b9ff/ffffff?text=Tabla+de+Registros)
-
 ## ✨ Características
 
 - 📝 **Formulario Multi-Step**: 3 pasos con validaciones en tiempo real
