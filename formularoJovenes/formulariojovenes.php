@@ -62,9 +62,6 @@ class FormularioJovenes {
         // Bootstrap JS
         wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js', array('jquery'));
         
-        // Chart.js
-        wp_enqueue_script('chartjs', 'https://cdn.jsdelivr.net/npm/chart.js');
-        
         // Estilos personalizados
         wp_enqueue_style('formulario-jovenes', FORMULARIO_JOVENES_URL . 'assets/style.css');
         
@@ -187,6 +184,9 @@ class FormularioJovenes {
     }
     
     public function render_tabla($atts) {
+        // Cargar Chart.js solo cuando se muestra la tabla
+        wp_enqueue_script('chartjs', 'https://cdn.jsdelivr.net/npm/chart.js');
+        
         ob_start();
         include FORMULARIO_JOVENES_PATH . 'templates/tabla.php';
         return ob_get_clean();
